@@ -1,0 +1,25 @@
+{
+  "fonte": "Programa fictício. Cada norma tem vigência (início/fim) e flag de revogação. A norma nova costuma REESCREVER o texto (outras palavras), enquanto a antiga, mais verbosa, casa melhor com a pergunta literal. Por isso a busca por similaridade tende a trazer a REVOGADA.",
+  "nodes": [
+    {"id": "res2022_repasse", "rotulo": "Resolução 10/2022, Art. 5º",
+     "texto": "O valor do repasse por aluno matriculado no Programa Alfa é de R$ 80,00.",
+     "vigente": false, "inicio": 2022, "fim": 2024, "revogado_por": "Resolução 25/2024"},
+    {"id": "res2024_repasse", "rotulo": "Resolução 25/2024, Art. 5º",
+     "texto": "O Programa Alfa passou a destinar R$ 100,00 por estudante.",
+     "vigente": true, "inicio": 2024, "fim": null, "revogado_por": null},
+
+    {"id": "res2023_prazo", "rotulo": "Resolução 18/2023, Art. 9º",
+     "texto": "O prazo de prestação de contas do Programa Alfa é de 30 dias.",
+     "vigente": false, "inicio": 2023, "fim": 2024, "revogado_por": "Resolução 25/2024"},
+    {"id": "res2024_prazo", "rotulo": "Resolução 25/2024, Art. 9º",
+     "texto": "O prazo para prestação de contas do Programa Alfa passou para 60 dias.",
+     "vigente": true, "inicio": 2024, "fim": null, "revogado_por": null},
+
+    {"id": "res2024_elegib", "rotulo": "Resolução 25/2024, Art. 3º",
+     "texto": "São elegíveis ao Programa Alfa as escolas com no mínimo 50 alunos matriculados.",
+     "vigente": true, "inicio": 2024, "fim": null, "revogado_por": null},
+    {"id": "res2024_contas", "rotulo": "Resolução 25/2024, Art. 12",
+     "texto": "A prestação de contas do Programa Alfa é feita exclusivamente pelo sistema oficial.",
+     "vigente": true, "inicio": 2024, "fim": null, "revogado_por": null}
+  ]
+}
